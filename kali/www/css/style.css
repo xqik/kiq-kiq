@@ -13,7 +13,7 @@ body {
     font-family: Courier;
     font-size: 14px;
     bottom: 1000px;
-/*     overflow: auto !important; */
+    overflow: auto !important;
 }
 
 .terminal-title {
@@ -32,8 +32,8 @@ body {
     background-color: rgb(47, 52, 63);
     padding-top: 5px;
     padding-bottom: 5px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
     float: left;
 }
 
