@@ -1,0 +1,38 @@
+function login() {
+    var username = document.querySelector(".username").value;
+    var password = document.querySelector(".password").value;
+    if (username == "kali" && password == "kali") {
+        window.location.href = "D:\\Documentos\\Code\\Html\\data0008\\kali login\\kali\\www\\kali.html";
+    } else {
+        alert("Username: kali\nPassword: kali");
+    }
+}
+
+function cancel() {
+    alert("Username: kali\nPassword: kali");
+    document.querySelector(".username").value = "kali";
+    document.querySelector(".password").value = "kali";
+}
+
+window.onload = function() {
+    document.querySelector(".btn-cancel").addEventListener("mouseover", () => {
+        document.querySelector(".btn-cancel").innerHTML = "Cancel";
+    });
+    document.querySelector(".btn-cancel").addEventListener("mouseout", () => {
+        document.querySelector(".btn-cancel").innerHTML = "Ajuda";
+    });
+}
+
+window.onload = function() {
+    var disclaimer = document.getElementsByClassName("disclaimer");
+    disclaimer.parentNode.removeChild(disclaimer);
+}
+
+window.onload = function() {
+    var disclaimer = document.getElementsByClassName("disclaimer")[0];
+    disclaimer.parentNode.removeChild(disclaimer);
+}
+
+window.onload = function() {
+    window.scrollTo(0, 0);
+}
