@@ -16,7 +16,6 @@ body {
     font-size: 14px;
     bottom: 1000px;
     border: 1px solid rgb(28, 29, 36);
-    visibility: hidden;
 }
 
 .terminal-title {
