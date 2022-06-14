@@ -31,7 +31,7 @@ function construction() {
 
 function exit() {
     var x = document.querySelector(".exit");
-    window.open("D:\\Documentos\\Code\\Html\\data0008\\kali login\\index.html", "_self");
+    window.open("https://k19x.github.io/kiq-kiq/", "_self");
 }
 
 function certs() {
