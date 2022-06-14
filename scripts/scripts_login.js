@@ -2,14 +2,13 @@ function login() {
     var username = document.querySelector(".username").value;
     var password = document.querySelector(".password").value;
     if (username == "kali" && password == "kali") {
-        window.location.href = "D:\\Documentos\\Code\\Html\\data0008\\kali login\\kali\\www\\kali.html";
+        window.location.href = "https://k19x.github.io/kiq-kiq/kali/www/kali.html";
     } else {
-        alert("Username: kali\nPassword: kali");
+        alert("Clique em 'Cancel' para ajuda.");
     }
 }
 
 function cancel() {
-    alert("Username: kali\nPassword: kali");
     document.querySelector(".username").value = "kali";
     document.querySelector(".password").value = "kali";
 }
