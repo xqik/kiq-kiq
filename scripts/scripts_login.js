@@ -33,5 +33,7 @@ window.onload = function() {
 }
 
 window.onload = function() {
-    window.scrollTo(0, 0);
+    document.addEventListener('contextmenu', event => event.preventDefault());
+    document.oncontextmenu = document.body.oncontextmenu = function() {return false;
+    }
 }
