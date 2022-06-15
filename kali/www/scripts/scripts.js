@@ -25,8 +25,13 @@ function academic() {
     }
 }
 
-function construction() {
-    alert("under construction...");
+function construct() {
+    var x = document.querySelector(".construct");
+    if (x.hidden == true) {
+        x.hidden = false;
+    } else {
+        x.hidden = true;
+    }
 }
 
 function exit() {
